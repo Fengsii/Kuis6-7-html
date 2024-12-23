@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Efengsi</title>
+</head>
+
+<body>
+   <h1>Data Pemesanan Kue</h1>
+
+   <!-- <div id='myDiv'>Ini adalah elemen div dengan ID 'myDiv'</div>
+   <p class="prgph">Ini adalah paragraf pertama.</p>
+      <p class="prgph">Ini adalah paragraf kedua.</p> -->
+
+      <!-- <div id="container">
+         <!-- Elemen baru akan ditambahkan di sini -->
+         <!-- </div> -->
+
+         <!-- <button id="myButton">Klik saya!</button>
+
+         <button onclick="alert('Tombol telah di klik!')">
+            Klik saya!
+         </button> -->
+
+         <!-- <button ondblclick="buttonClicked()">Klik 2 kali!</button> -->
+
+   <script>
+      let tokoKue = {
+         id : "TK-002",
+         nama : "Toko Kue Lezat",
+         kategori : ["Kue Basah", "Kue Kering", "Roti", "Kue Tart", "Donat"],
+         didirikan: {
+            tahun : 2010,
+            lokasi : "Bandung"
+         },
+         KuePopuler : [
+            "Brwonies Coklat",
+            "Chesse Cake",
+            {
+               jenis : ["Tradisioanal","Modern"],
+               nama : ["Bolu Kukus", "Cupcake"]
+            },
+            {
+            bahan : ["Tepung", "Gula", "Telur"],
+            },
+         ],
+         alamat : {
+            jalan : "JL. Asia Afrika",
+            Kota : "Bandung",
+            Provinsi : "Jawa Barat",
+            KodePos : 40111,
+         },
+
+      };
+
+      document.write(tokoKue.id + "<br>");
+      document.write(tokoKue.nama + "<br>");
+      document.write(tokoKue.alamat.Kota + "<br>");
+      document.write(tokoKue.kategori[4] + "<br>");
+      document.write(tokoKue.KuePopuler[2].nama[1] + "<br>");
+      document.write(tokoKue.alamat.Provinsi + "<br>");
+      
+
+      
+
+      // let myElement = document.getElementBy('myDiv');
+
+      // let paragraphs = document.getElementsByClassName('prgph');
+
+      // remove.newParagraph();
+
+      // let newParagraph = document.createElement('p');
+      // newParagraph.textContent = 'Ini adalah teks dalam elemen paragraf 1.';
+      // document.getElementById('container').appendChild(newParagraph);
+
+      // let newParagraph1 = document.createElement('p');
+      // newParagraph1.textContent = 'Ini adalah teks dalam elemen paragraf 2.';
+      // document.getElementById('container').appendChild(newParagraph1);
+      // newParagraph.style.background = 'gold'
+      // newParagraph.style.textAlign = "center"
+      // newParagraph.style.height = '100px'
+
+      // document.getElementById('myButton').addEventListener('click'
+      //    ,function () {
+      //       alert('Tombol telah diklik!');
+      // });
+
+      // function buttonClicked() {
+      //    alert('Tombol telah diklik!');
+      // }
+
+
+     
+
+   </script>
+
+
+</body>
+</html>

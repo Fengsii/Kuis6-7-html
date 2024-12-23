@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kuis 6 Efengsi</title>
+</head>
+
+<style>
+   div {
+      width: 500px;
+      height: 500px;
+      background-color: rgba(33, 6, 183, 0.041);
+   }
+</style>
+
+<body>
+
+   <div>
+   <script>
+      let name = prompt("Nama Anda : ");
+      let age  = prompt("Umur Anda : ");
+      let lahir = prompt("tanggal lahir : ");
+      let asal = prompt("Asal Kota : ");
+      
+      
+      document.write("<b>Nama saya adalah </b>" + name + "<br>");
+      document.write("Umur saya adalah " + age + "<br>");
+      document.write("Tanggal lahir " + lahir + "<br>")
+      document.write("Asal saya dari " + asal + "<br>");
+      
+  
+
+      let status = confirm("Apakah anda sudah punya pacar?");
+      if(status ){
+         let nama = prompt("Nama nya : ");
+         document.write("Status pacar saya adalah : True. namanya" + nama + "<br>");
+      }
+      else{
+         document.write("Sayang sekali, belum punya pacar");
+      }
+
+   </script>
+   </div>
+</body>
+</html>
